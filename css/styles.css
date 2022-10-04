@@ -1,0 +1,145 @@
+:root {
+    --main-color: #386457;
+    --current-color: #3A8972;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Header */
+
+.header {
+    position: relative;
+    padding-top: 25px;
+}
+
+.authorization-menu {
+    position: absolute;
+    top: -40px;
+    right: 30px;
+
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.authorization-enter {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.25; /* identical to box height */
+    color: rgba(56, 100, 87, 0.8);
+    margin-right: 30px;
+}
+
+.authorization-language {}
+
+.navigation {}
+
+.header-menu-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.header-menu-item {
+    position: relative;
+    display: block;
+    list-style: none;
+}
+
+.header-link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.28;  /* identical to box height */
+    color: var(--main-color);
+}
+
+.header-link:hover, 
+.header-link:focus {
+    color: var(--current-color);
+}
+
+.header-logo {
+    fill: var(--main-color);
+}
+
+
+.header-submenu-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.header-submenu-item {
+    list-style: none;
+}
+
+.header-submenu-link {
+    text-decoration: none;
+    display: block;
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.21; /* identical to box height */
+    color: var(--main-color);
+    margin-top: 20px;
+    white-space: nowrap;
+}
+
+.header-submenu-link:hover,
+.header-submenu-link:focus {
+    color: var(--current-color);
+}
+
+.poligon {
+    visibility: hidden;
+    opacity: 0;
+    fill: currentColor;
+}
+.header-menu-item:hover .header-submenu-list,
+.header-menu-item:hover .poligon
+ {
+    visibility: visible;
+    opacity: 1;
+}
