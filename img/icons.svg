@@ -4,8 +4,14 @@
 <path fill="#005bbb" style="fill: var(--color1, #005bbb)" opacity="0.8" d="M45.714 0h-45.714v30.475h45.714v-30.475z"></path>
 <path fill="#ffd500" style="fill: var(--color2, #ffd500)" opacity="0.8" d="M45.714 15.239h-45.714v15.237h45.714v-15.239z"></path>
 </symbol>
+<symbol id="icon-left" viewBox="0 0 20 32">
+<path d="M18.286 30.476l-15.238-14.476 15.238-14.476"></path>
+</symbol>
 <symbol id="icon-polygon" viewBox="0 0 53 32">
 <path d="M26.667 0l23.093 30h-46.187l23.093-30z"></path>
+</symbol>
+<symbol id="icon-right" viewBox="0 0 20 32">
+<path d="M1.524 1.524l15.238 14.476-15.238 14.476"></path>
 </symbol>
 <symbol id="icon-sitelogo" viewBox="0 0 32 32">
 <path fill="none" stroke="#386457" style="stroke: var(--color3, #386457)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.96" d="M31.52 16c0 8.571-6.949 15.52-15.52 15.52s-15.52-6.949-15.52-15.52c0-8.571 6.949-15.52 15.52-15.52s15.52 6.949 15.52 15.52z"></path>
