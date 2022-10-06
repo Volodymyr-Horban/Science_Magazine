@@ -402,3 +402,111 @@ img {
     color: rgba(0, 0, 0, 0.7);
     max-height: 130px;
 }
+
+/* Foter */
+
+.footer {
+    background-color: var(--main-color);
+    height: 300px;
+    padding-top: 40px;
+}
+
+.footer-wrap {
+    display: flex;
+    
+}
+
+.arr {
+    width: 170px;
+}
+
+.arr-link {
+    margin: 0 auto 15px;
+    
+}
+
+.arr-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.43; /* identical to box height, or 143% */
+    color: rgba(255, 255, 255, 0.7);
+    margin: auto;
+}
+
+.arr-date {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.43;   /* identical to box height, or 143% */
+    color: rgba(255, 255, 255, 0.7);
+    }
+
+.footer-menu {
+    display: block;
+    margin-left: 130px;
+}
+    
+.footer-menu-list {
+    list-style: none;
+}
+    
+.footer-menu-item {
+    margin-bottom: 20px;
+}
+    
+.footer-menu-link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.11; /* identical to box height, or 111% */
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.footer-menu-link:hover {
+    text-decoration: underline;
+
+}
+
+.footer-contacts {
+    width: 170px;
+    margin-left: 105px;
+}
+
+.footer-contacts-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.11; /* identical to box height, or 111% */
+    color: var(--white-color);
+    margin-bottom: 10px;
+}
+
+.footer-contacts-list {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.footer-contacts-item {
+    text-decoration: none;
+}
+
+.footer-contacts-link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.43; /* identical to box height, or 143% */
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+.footer-contacts-link:hover {
+    text-decoration: underline;
+}
+
+.footer-address {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.43;  /* or 143% */
+    color: rgba(255, 255, 255, 0.7);
+}

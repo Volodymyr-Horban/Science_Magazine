@@ -17,5 +17,9 @@
 <path fill="none" stroke="#386457" style="stroke: var(--color3, #386457)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.96" d="M31.52 16c0 8.571-6.949 15.52-15.52 15.52s-15.52-6.949-15.52-15.52c0-8.571 6.949-15.52 15.52-15.52s15.52 6.949 15.52 15.52z"></path>
 <path fill="#386457" style="fill: var(--color3, #386457)" d="M12.993 9.413l-1.659-0.246v-1.024h5.878v1.024l-2.028 0.246v12.739l5.284-0.184 1.208-3.441 1.249 0.184-0.717 4.649h-10.916v-1.004l1.7-0.205v-12.739z"></path>
 </symbol>
+<symbol id="icon-white_logo" viewBox="0 0 32 32">
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.96" d="M31.52 16c0 8.571-6.949 15.52-15.52 15.52s-15.52-6.949-15.52-15.52c0-8.571 6.949-15.52 15.52-15.52s15.52 6.949 15.52 15.52z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M12.993 9.413l-1.659-0.246v-1.024h5.878v1.024l-2.028 0.246v12.739l5.284-0.184 1.208-3.441 1.249 0.184-0.717 4.649h-10.916v-1.004l1.7-0.205v-12.739z"></path>
+</symbol>
 </defs>
 </svg>
