@@ -54,35 +54,47 @@ img {
 /* Header */
 
 .header {
-    height: 450px;
-    background-image: url(../img/10745.jpg);
+    height: 110px;
     background-repeat: no-repeat;
     background-position: center top;
-    padding-top: 22px;
-
+    background-color: var(--main-color);
+    padding-top: 15px;
 }
 
 .header-wrap {
     position: relative;
     margin: auto;
-    
-    
+
+
 }
 
-.language {
+.authorization-menu {
     position: absolute;
-    top: 0;
-    right: 15px;
+    top: -70px;
+    right: 20px;
 
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.authorization-enter {
+    margin-right: 20px;
+}
+
+.authorization-button {
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.25;  /* identical to box height */
-    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.25;
+    color: var(--white-color);
+
 
     border: none;
     background-color: transparent;
     cursor: pointer;
+
 }
+
 
 .navigation {}
 
@@ -103,11 +115,12 @@ img {
     text-decoration: none;
     font-weight: 400;
     font-size: 18px;
-    line-height: 1.28;  /* identical to box height */
+    line-height: 1.28;
+    /* identical to box height */
     color: var(--white-color);
 }
 
-.header-link:hover, 
+.header-link:hover,
 .header-link:focus {
     color: var(--white-color);
     text-decoration: underline;
@@ -139,10 +152,10 @@ img {
 .header-submenu-link {
     text-decoration: none;
     display: block;
-    
+
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.21; 
+    line-height: 1.21;
     color: var(--white-color);
     margin-top: 20px;
     white-space: nowrap;
@@ -157,129 +170,65 @@ img {
     visibility: hidden;
     opacity: 0;
     fill: currentColor;
-    
+
 }
+
 .header-menu-item:hover .header-submenu-list,
-.header-menu-item:hover .poligon
- {
+.header-menu-item:hover .poligon {
     visibility: visible;
     opacity: 1;
 }
 
-.header-title-wrap {
-    display: flex;
-    justify-content: center;
-    margin-top: 70px;
-}
 
-.header-title {
-       
-    font-weight: 400;
-    font-size: 72px;
-    line-height: 1.26; 
-    color: var(--white-color);
-    
 
-}
 
 /* Main */
-
-.news {
-    padding-top: 50px;
-    padding-bottom: 100px;
+.main {
+    background: #E5E5E5;
 }
 
-.aside {
-    float: right;
-    width: 264px;
-    height: 930px;
-    background-color: #D6D6D6;
-}
-
-.news-list {
-    display: flex;
-    gap: 30px;
-    width: 870px;
-    list-style: none;
-}
-
-.news-title {
-    font-weight: 400;
-    font-size: 42px;
-    line-height: 0.48;
-    /* identical to box height, or 48% */
-    text-align: center;
-    color: var(--main-color);
-    margin-bottom: 60px;
-
-}
-
-.news-list {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-    list-style: none;
-}
-
-.news-item {
-    width: 270px;
-    height: 450px;
-}
-
-.news-link {
-    text-decoration: none;
-}
-
-.news-wrap {
-    display: block;
-    background: var(--white-color);
-    box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1);
-}
-
-.news-img {
-    width: 270px;
-}
-
-.news-short {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 13px;
-}
-
-.news-subtitle {
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 28px;
+.main-wrap {
+    padding: 108px 222px 100px 222px;
     
-    color: var(--main-color);
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
-.news-text {
+.error-title {
+    font-family: 'Montserrat';
+    font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1.43;
+    font-size: 96px;
+    line-height: 96px;
+    color: var(--main-color);
+    padding-bottom: 60px;
+}
+
+.error-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1;
     color: rgba(0, 0, 0, 0.7);
+    padding-bottom: 20px;
 }
 
-.news-more {
+.error-link {
+    font-family: 'Montserrat';
+    font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1.43;
-    text-decoration-line: underline;
-    color: transparent;
-}
-
-.news-link:hover .news-more {
+    font-size: 36px;
+    line-height: 1;
     color: var(--main-color);
 }
 
-.news-link:hover .news-wrap {
-    box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.2);
+.error-number {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.4);
+    padding-top: 59px;
 }
 
 /* Foter */

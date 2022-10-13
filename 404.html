@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Новости</title>
+    <title>Ошибка</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Montserrat&display=swap"
@@ -12,16 +12,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles_news.css" />
+    <link rel="stylesheet" href="./css/styles_404.css" />
 </head>
 <body>
     <header class="header">
         <div class="container header-wrap">
-        
-            <button type="button" class="language">eng/ukr</button>
-        
+    
+            <ul class="authorization-menu">
+                <li class="authorization-enter"> <button type="button" class="authorization-button">Вход</button></li>
+                <li class="authorization-language"> <button type="button" class="authorization-button"><svg width="20px"
+                            hight="13px">
+                            <use href="./img/icons.svg#icon-flag_of_ukraine"></use>
+                        </svg></button></li>
+                </li>
+            </ul>
+    
             <nav class="navigation">
-        
+    
                 <ul class="header-menu-list">
                     <li class="header-menu-item"><a href="./index.html" class="header-link">Главная</a></li>
                     <li class="header-menu-item"><a href="./news.html" class="header-link">Новости</a></li>
@@ -36,16 +43,17 @@
                                     статей</a></li>
                             <li class="header-submenu-item"><a href="#" class="header-submenu-link">Лицензионный договор</a>
                             </li>
-                            <li class="header-submenu-item"><a href="#" class="header-submenu-link">Условия публикации</a></li>
+                            <li class="header-submenu-item"><a href="#" class="header-submenu-link">Условия публикации</a>
+                            </li>
                             <li class="header-submenu-item"><a href="#" class="header-submenu-link">Подача статьи для
                                     опубликования</a>
                             </li>
-        
+    
                         </ul>
-        
+    
                     </li>
-                    <li class="header-menu-item"><a href="./index.html" class="header-link"> <svg width="100px" height="100px"
-                                class="header-logo">
+                    <li class="header-menu-item"><a href="./index.html" class="header-link"> <svg width="80px"
+                                height="80px" class="header-logo">
                                 <use href="./img/icons.svg#icon-white_logo"></use>
                             </svg> </a></li>
                     <li class="header-menu-item"><a href="#" class="header-link">Редколлегия</a></li>
@@ -57,101 +65,39 @@
                             <li class="header-submenu-item"><a href="#" class="header-submenu-link">Галлерея</a></li>
                             <li class="header-submenu-item"><a href="#" class="header-submenu-link">Индексирование</a></li>
                             <li class="header-submenu-item"><a href="#" class="header-submenu-link">Партнеры</a></li>
-                            <li class="header-submenu-item"><a href="#" class="header-submenu-link">Общая информация</a></li>
-                            <li class="header-submenu-item"><a href="#" class="header-submenu-link">Этика публикации</a></li>
+                            <li class="header-submenu-item"><a href="#" class="header-submenu-link">Общая информация</a>
+                            </li>
+                            <li class="header-submenu-item"><a href="#" class="header-submenu-link">Этика публикации</a>
+                            </li>
                             <li class="header-submenu-item"><a href="#" class="header-submenu-link">Политика открытого
                                     доступа</a></li>
                             <li class="header-submenu-item"><a href="#" class="header-submenu-link">Статистика</a></li>
-        
+    
                         </ul>
                     </li>
                     <li class="header-menu-item"><a href="./search.html" class="header-link">Поиск</a></li>
                     <li class="header-menu-item"><a href="#" class="header-link">Контакты</a></li>
                 </ul>
-        
+    
             </nav>
-            <div class="header-title-wrap"><h1 class="header-title">Lorem Ipsum</h1></div>
-        
-        
-        
+           
+    
+    
+        </div>
+    
+    </header>
+    
+    <main class="main">
+        <div class="container main-wrap">
+            <h1 class="visually-hidden">Ошибка</h1>
+            <h2 class="error-title">Oops...</h2>
+            <P class="error-text">This page not found.</P>
+            <P class="error-text">Try a different page or <a href="./index.html" class="error-link">back to homepage.</a></p>
+            <p class="error-number">Error 404</p>
         </div>
 
-    </header>
-    <main>
-        <section class="news">
-            <h2 class="visually-hidden">Новости</h2>
-
-            <div class="container">
-                <aside class="aside"></aside>
-                <ul class="news-list">
-                    <li class="news-item"><a href="#" class="news-link">
-                            <div class="news-wrap"><img src="./img/4568.jpg" alt="Порт" class="news-img">
-                                <div class="news-short">
-                                    <h3 class="news-subtitle">Заголовок</h3>
-                                    <p class="news-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae neque et magna
-                                        congue mattis ut sit amet erat.</p>
-                                    <p class="news-more">Подробнее</p>
-                                </div>
-                            </div>
-                        </a></li>
-                    <li class="news-item"><a href="#" class="news-link">
-                            <div class="news-wrap"><img src="./img/3227.jpg" alt="Рука на штурвале" class="news-img">
-                                <div class="news-short">
-                                    <h3 class="news-subtitle">Заголовок</h3>
-                                    <p class="news-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae neque et magna
-                                        congue mattis ut sit amet erat.</p>
-                                    <p class="news-more">Подробнее</p>
-                                </div>
-                            </div>
-                        </a></li>
-                    <li class="news-item"><a href="#" class="news-link">
-                            <div class="news-wrap"><img src="./img/8369.jpg" alt="Портовой кран" class="news-img">
-                                <div class="news-short">
-                                    <h3 class="news-subtitle">Заголовок</h3>
-                                    <p class="news-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae neque et magna
-                                        congue mattis ut sit amet erat.</p>
-                                    <p class="news-more">Подробнее</p>
-                                </div>
-                            </div>
-                        </a></li>
-                    <li class="news-item"><a href="#" class="news-link">
-                            <div class="news-wrap"><img src="./img/1194.jpg" alt="Морские контейреры" class="news-img">
-                                <div class="news-short">
-                                    <h3 class="news-subtitle">Заголовок</h3>
-                                    <p class="news-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae neque et magna
-                                        congue mattis ut sit amet erat.</p>
-                                    <p class="news-more">Подробнее</p>
-                                </div>
-                            </div>
-                        </a></li>
-                    <li class="news-item"><a href="#" class="news-link">
-                            <div class="news-wrap"><img src="./img/n5.jpg" alt="Морские волны" class="news-img">
-                                <div class="news-short">
-                                    <h3 class="news-subtitle">Заголовок</h3>
-                                    <p class="news-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae neque et magna
-                                        congue mattis ut sit amet erat.</p>
-                                    <p class="news-more">Подробнее</p>
-                                </div>
-                            </div>
-                        </a></li>
-                    <li class="news-item"><a href="#" class="news-link">
-                            <div class="news-wrap"><img src="./img/n6.jpg" alt="Нос корабля" class="news-img">
-                                <div class="news-short">
-                                    <h3 class="news-subtitle">Заголовок</h3>
-                                    <p class="news-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae neque et magna
-                                        congue mattis ut sit amet erat.</p>
-                                    <p class="news-more">Подробнее</p>
-                                </div>
-                            </div>
-                        </a></li>
-                </ul>
-            </div>
-        </section>
-        
-        
-
-
     </main>
+
     <footer class="footer">
         <div class="container footer-wrap">
             <div class="arr">
