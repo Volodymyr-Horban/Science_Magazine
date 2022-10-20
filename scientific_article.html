@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Оглавление научного сборника</title>
+    <title>Научная статья</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Montserrat&display=swap"
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles_collectoin.css" />
+    <link rel="stylesheet" href="./css/styles_scientific_article.css" />
 </head>
 <body>
     <header class="header">
@@ -83,47 +83,49 @@
         </div>
     
     </header>
+
     <main>
-        <section class="collection"></section>
-        <div class="container">
-            <div class="collection-wrap">
-                <div class="img-wrap">
-                    <div class="annotation-wrap">
-                        <h1 class="collection-title">Название журнала</h1>
-                        <p class="collection-year">2011</p>
-                        <p class="collection-annotation">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna
-                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat.
-                            Duis
-                            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                    <img src="./img/arch_cover_2.jpg" alt="Обложка журнала">
+        <section>
+            <h1 class="visually-hidden">Научная статья</h1>
+            <div class="container">
+            <div class="article">
+                <p class="article-doi">DOI: <a href="#" class="article-link">https://journal.com</a></p>
+                <p class="article-date">19.05.2019</p>
+                <h2 class="article-title">Название статьи</h2>
+                <h3 class="article-author"></h3>
+                <p class="article-annotation">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="article-annotation">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate.</p>
+                <div class="keywords-wrap">
+                    <h3 class="arcticle-keywords-title">Ключевые слова</h3>
+                    <p class="article-keywords">Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum,
+                        Lorem ipsum, Lorem ipsum,
+                        Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum,
+                        Lorem ipsum, Lorem ipsum, Lorem ipsum,</p>
                 </div>
-                <div class="contents">
-                    <h2 class="contents-title">Оглавление</h2>
-                    <p class="contents-article">Статья
-                    1..............................................................................................................................................................................................................3</p>
-                    <p class="contents-article">Статья
-                    2.............................................................................................................................................................................................................6</p>
-                    <p class="contents-article">Статья
-                    3...........................................................................................................................................................................................................13</p>
-                    <p class="contents-article">Статья
-                    4.........................................................................................................................................................................................................24</p>
-                    <p class="contents-article">Статья
-                    5..........................................................................................................................................................................................................33</p>
-                    <p class="contents-article">Статья
-                    6..........................................................................................................................................................................................................50</p>
+                <div class="literature-wrap">
+                    <h3 class="literature-title">Список литературы</h3>
+                    <p class="literature-citation">Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum,
+                    Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum,
+                    Lorem ipsum, Lorem ipsum, Lorem ipsum,</p>
                 </div>
-
-                <a href="#" class="download" download>Скачать PDF</a>
-
-
+                <p class="article-downloads">Скачивания: <span>93</span></p>
+                <p class="article-views">Просмотры: <span>194</span></p>
+                <div class="button-wrap">
+                    <a href="#" class="article-link-read">Читать статью</a>
+                    <a href="#" class="article-link-download" download>Скачать PDF</a>
+                </div>
+                
 
             </div>
-                
-        </div>
+            </div>
+
+        </section>
+        
 
     </main>
     <footer class="footer">
