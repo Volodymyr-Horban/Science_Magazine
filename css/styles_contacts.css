@@ -55,7 +55,7 @@ img {
 
 .header {
     height: 450px;
-    background-image: url(../img/scientific_article.jpg);
+    background-image: url(../img/contancts_header.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     background-color: var(--main-color);
@@ -182,5 +182,397 @@ img {
     line-height: 1.26;
     color: var(--white-color);
 
+}
 
+/* Main */
+
+/* Contact us */
+
+.contact-us {
+    width: 770px;
+    margin-top: 60px;
+    margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+
+}
+
+.contact-us-form {
+    
+    margin: auto;
+}
+
+.form-title {
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 134.09%; /* or 56px */
+    color: var(--main-color);
+    margin-bottom: 50px;
+    text-align: center;
+    
+}
+
+.input-wrap {
+    margin-bottom: 40px;
+}
+
+.contact-name-input {
+    width: 270px;
+    height: 30px;
+    padding-left: 10px;
+
+    background-color: #EFEFEF;
+    border-radius: 1px;
+    border: none;
+    margin-right: 30px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 134.09%; 
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.contact-name-tel {
+    width: 270px;
+    height: 30px;
+    padding-left: 10px;
+    
+    background-color: #EFEFEF;
+    border-radius: 1px;
+    border: none;
+        
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 134.09%;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.contact-name-surname {
+    width: 270px;
+    height: 30px;
+    padding-left: 10px;
+    
+    background-color: #EFEFEF;
+    border-radius: 1px;
+    border: none;
+    margin-right: 30px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 134.09%;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.contact-name-email {
+    width: 270px;
+    height: 30px;
+    padding-left: 10px;
+    
+    background-color: #EFEFEF;
+    border-radius: 1px;
+    border: none;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 134.09%;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.contact-name-organization {
+    width: 570px;
+    height: 30px;
+    padding-left: 10px;
+    margin-bottom: 40px;
+    
+    background-color: #EFEFEF;
+    border-radius: 1px;
+    border: none;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 134.09%;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.contact-feedback {
+    width: 770px;
+    height: 400px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    
+    background-color: #EFEFEF;
+    border-radius: 1px;
+    border: none;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 134.09%;
+    color: rgba(0, 0, 0, 0.4);
+
+    resize: none;
+}
+
+.contact-button {
+    display: block;
+    width: 300px;
+    height: 60px;
+    background-color:var(--main-color);
+    border-radius: 1px;
+    border: none;
+    margin: auto;
+
+    cursor: pointer;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 134.09%; /* or 32px */
+    color: var(--white-color);
+
+}
+
+.contact-button:hover,
+.contact-button:focus {
+    background-color: var(--current-color);
+}
+
+/* Contacts */
+
+.contacts {
+    margin-bottom: 224px;
+}
+
+.contacts-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.address-wrap {}
+
+.telephons-title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 134.09%;    
+    color: var(--main-color);
+    margin-bottom: 12px;
+}
+
+.telephone-list {
+    list-style: none;
+    margin-bottom: 57px;
+}
+
+.telephon-item {
+    margin-bottom: 2px;
+    
+}
+
+.telephon-item:last-child {
+    margin-bottom: 0;
+}
+.telephon-number {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 134.09%; /* identical to box height, or 24px */
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.working-hour-title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 134.09%;
+    color: var(--main-color);
+    margin-bottom: 12px;
+}
+
+.working-day {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 134.09%; /* identical to box height, or 24px */
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 2px;
+}
+
+.working-time {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 134.09%;  /* identical to box height, or 24px */
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 65px;
+}
+
+.address-title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 134.09%;
+    color: var(--main-color);
+    margin-bottom: 12px;
+}
+
+.address-sity {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 134.09%;  /* identical to box height, or 24px */
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 2px;
+}
+
+.address-street {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 134.09%;  /* identical to box height, or 24px */
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 2px;
+    }
+
+.address-street:last-child {
+    margin-bottom: 0;
+}
+
+.location-link {}
+
+.location-img {
+    width: 770px;
+    height: 510px;
+}
+
+/* Foter */
+
+.footer {
+    background-color: var(--main-color);
+    height: 300px;
+    padding-top: 40px;
+}
+
+.footer-wrap {
+    display: flex;
+
+}
+
+.arr {
+    width: 170px;
+}
+
+.arr-link {
+    margin: 0 auto 15px;
+
+}
+
+.arr-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.43;
+    /* identical to box height, or 143% */
+    color: rgba(255, 255, 255, 0.7);
+    margin: auto;
+}
+
+.arr-date {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.43;
+    /* identical to box height, or 143% */
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-menu {
+    display: block;
+    margin-left: 130px;
+}
+
+.footer-menu-list {
+    list-style: none;
+}
+
+.footer-menu-item {
+    margin-bottom: 20px;
+}
+
+.footer-menu-link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.11;
+    /* identical to box height, or 111% */
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.footer-menu-link:hover {
+    text-decoration: underline;
+
+}
+
+.footer-contacts {
+    width: 170px;
+    margin-left: 105px;
+}
+
+.footer-contacts-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.11;
+    /* identical to box height, or 111% */
+    color: var(--white-color);
+    margin-bottom: 10px;
+}
+
+.footer-contacts-list {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.footer-contacts-item {
+    text-decoration: none;
+}
+
+.footer-contacts-link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.43;
+    /* identical to box height, or 143% */
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+.footer-contacts-link:hover {
+    text-decoration: underline;
+}
+
+.footer-address {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.43;
+    /* or 143% */
+    color: rgba(255, 255, 255, 0.7);
 }

@@ -84,10 +84,133 @@
     
     </header>
     <main>
+        <h1 class="visually-hidden">Контакты</h1>
+        <div class="container">
+            <section class="contact-us">
+                <h2 class="form-title">Свяжитесь с нами</h2>
+                <form class="contact-us-form">
+                    
+                    <div class="input-wrap">
+                        <label>
+                            <input
+                            type="text" 
+                            name="contact-name"
+                            class="contact-name-input"
+                            placeholder="Имя"
+                            required
+                            >
+                        </label>
+                        <label>
+                            <input type="tel"
+                            minlength="10"
+                            name="contact-tel" 
+                            class="contact-name-tel" 
+                            placeholder="Номер телефона"
+                            required
+                            >
+                        </label>
+                    </div>
+                    <div class="input-wrap"></div>
+                    <div class="input-wrap">
+                        <label>
+                            <input type="text" 
+                            name="contact-surname" 
+                            class="contact-name-surname" 
+                            placeholder="Фамилия" 
+                            required>
+                        </label>
+                        <label>
+                            <input type="email" 
+                            name="contact-email" 
+                            class="contact-name-email" 
+                            placeholder="@email"
+                            required>
+                        </label>
+                    </div>
+                    <label>
+                        <input 
+                        type="text"
+                        class="contact-name-organization"
+                        placeholder="Организация">
+                    </label>
+                    <label>
+                        <textarea 
+                        name="contact-feedback" 
+                        class="contact-feedback"
+                        placeholder="Текст"
+                        ></textarea>
+                    </label>
+                    <button type="submit" class="contact-button">Отправить</button>
+
+                </form>
+            </section>
+            <section class="contacts">
+                <h2 class="visually-hidden">Контакты, адресс, телефоны</h2>
+                <div class="contacts-wrap">
+                    <div class="address-wrap">
+                        <h3 class="telephons-title">Телефон</h3>
+                        <ul class="telephone-list">
+                            <li class="telephon-item"><a href="tel:+380634483717" class="telephon-number">+ 38 (063) 448 37 17</a></li>
+                            <li class="telephon-item"><a href="tel:+380634483717" class="telephon-number">+ 38 (063) 448 37 17</a></li>
+                            <li class="telephon-item"><a href="tel:+380634483717" class="telephon-number">+ 38 (063) 448 37 17</a></li>
+                        </ul>
+                        <h3 class="working-hour-title">Время работы</h3>
+                        <p class="working-day">Пн - Пт</p>
+                        <p class="working-time">10:00 - 20:00</p>
+                        <h3 class="address-title">Адрес</h3>
+                        <p class="address-sity">г. Одесса</p>
+                        <p class="address-street">улица Пушкинская 18а</p>
+                        <p class="address-street">вход со двора</p>
+
+                    </div>
+
+                    <a href="https://goo.gl/maps/kfJZQovaRCpWHWBd9" class="location-link" target="_blank" rel="noopener noreferrer nofollow"><img src="./img/location.jpg" alt="Нажать для перехода к карте" class="location-img"></a>
+
+                
+                </div>
+            </section>
+        </div>
 
     </main>
-    <footer>
-
+    <footer class="footer">
+        <div class="container footer-wrap">
+            <div class="arr">
+                <a href="./index.html" class="arr-link"><svg width="100px" height="100px" class="white-logo">
+                        <use href="./img/icons.svg#icon-white_logo"></use>
+                    </svg></a>
+                <p class="arr-text">All rights reserved.</p>
+                <p class="arr-text">2019 (c)</p>
+            </div>
+            <div class="footer-menu">
+                <ul class="footer-menu-list">
+                    <li class="footer-menu-item"><a href="./index.html" class="footer-menu-link">Главная</a></li>
+                    <li class="footer-menu-item"><a href="./news.html" class="footer-menu-link">Новости</a></li>
+                    <li class="footer-menu-item"><a href="./archive.html" class="footer-menu-link">Архивы</a></li>
+                    <li class="footer-menu-item"><a href="#" class="footer-menu-link">Авторам</a></li>
+                </ul>
+            </div>
+            <div class="footer-menu">
+                <ul class="footer-menu-list">
+                    <li class="footer-menu-item"><a href="#" class="footer-menu-link">Редколлегия</a></li>
+                    <li class="footer-menu-item"><a href="#" class="footer-menu-link">О журнале</a></li>
+                    <li class="footer-menu-item"><a href="#" class="footer-menu-link">Поиск</a></li>
+                    <li class="footer-menu-item"><a href="#" class="footer-menu-link">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer-contacts">
+                <h3 class="footer-contacts-title">Контакты</h3>
+                <ul class="footer-contacts-list">
+                    <li class="footer-contacts-item"><a href="tel:+380634483717" class="footer-contacts-link">+38 063 448 37
+                            17</a></li>
+                    <li class="footer-contacts-item"><a href="tel:+380634483717" class="footer-contacts-link">+38 063 448 37
+                            17</a></li>
+                </ul>
+                <address class="footer-address">г. Одесса<br>улица Пушкинская 18а вход со двора</address>
+    
+            </div>
+    
+        </div>
+    
     </footer>
 </body>
 </html>
