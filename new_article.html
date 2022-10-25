@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Оглавление научного сборника</title>
+    <title>Подача статьи для опубликования</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Montserrat&display=swap"
@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles_collectoin.css" />
+    <link rel="stylesheet" href="./css/styles_new_article.css" />
+    </head>
 </head>
 <body>
     <header class="header">
@@ -38,7 +39,8 @@
                             </li>
                             <li class="header-submenu-item"><a href="#" class="header-submenu-link">Условия публикации</a>
                             </li>
-                            <li class="header-submenu-item"><a href="./new_article.html" class="header-submenu-link">Подача статьи для
+                            <li class="header-submenu-item"><a href="./new_article.html" class="header-submenu-link">Подача
+                                    статьи для
                                     опубликования</a>
                             </li>
     
@@ -83,49 +85,93 @@
         </div>
     
     </header>
+
     <main>
-        <section class="collection"></section>
+        <h1 class="visually-hidden">Подача статьи</h1>
+
         <div class="container">
-            <div class="collection-wrap">
-                <div class="img-wrap">
-                    <div class="annotation-wrap">
-                        <h1 class="collection-title">Название журнала</h1>
-                        <p class="collection-year">2011</p>
-                        <p class="collection-annotation">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna
-                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat.
-                            Duis
-                            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <section class="instuction">
+
+                <h2 class="instruction-title">Заголовок</h2>
+
+                <p class="instruction-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="instruction-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate.</p>
+                <p class="instruction-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+
+            </section>
+
+            <section class="add_article">
+                <h2 class="visually-hidden">Подать статью</h2>
+                <form class="add_article_form">
+                    <label for="article_heading">
+                        <select name="article_heading" id="article_heading"  class="article_heading" required>
+                            <option value="article_heading_title" selected disabled>Рубрика статьи</option>
+                            <option value="article_heading_1">Рубрика 1</option>
+                            <option value="article_heading_2">Рубрика 2</option>
+                            <option value="article_heading_3">Рубрика 3</option>
+                            <option value="article_heading_4">Рубрика 4</option>
+                            <option value="article_heading_5">Рубрика 5</option>
+                            <option value="article_heading_6">Рубрика 6</option>
+                        </select>
+                    </label>
+                    <div class="article_author_wrap">
+                        <label>
+                            <input type="text" name="author-surname" class="author-surname" placeholder="Фамилия" required>
+                        </label>
+                        <label>
+                            <input type="text" name="author-name" class="author-name" placeholder="Имя" required>
+                        </label>
+                        <label>
+                            <input type="text" name="author-middle-name" class="author-middle-name" placeholder="Отчество" required>
+                        </label>
                     </div>
-                    <img src="./img/arch_cover_2.jpg" alt="Обложка журнала">
-                </div>
-                <div class="contents">
-                    <h2 class="contents-title">Оглавление</h2>
-                    <p class="contents-article">Статья
-                    1..............................................................................................................................................................................................................3</p>
-                    <p class="contents-article">Статья
-                    2.............................................................................................................................................................................................................6</p>
-                    <p class="contents-article">Статья
-                    3...........................................................................................................................................................................................................13</p>
-                    <p class="contents-article">Статья
-                    4.........................................................................................................................................................................................................24</p>
-                    <p class="contents-article">Статья
-                    5..........................................................................................................................................................................................................33</p>
-                    <p class="contents-article">Статья
-                    6..........................................................................................................................................................................................................50</p>
-                </div>
+                    <div class="article-author-contact-wrap">
+                        <label>
+                            <input type="text" name="author-position" class="author-position" placeholder="Должность" required>
+                        </label>
+                        <label>
+                            <input type="text" name="author-work" class="author-work" placeholder="Место работы" required>
+                        </label>
+                        
+                    </div>
+                    <div class="article-author-contact-wrap">
+                        <label>
+                            <input type="email" name="author-email" class="author-email" placeholder="@email" required>
+                        </label>
+                        <label>
+                            <input type="text" name="author-address" class="author-address" placeholder="Адрес" required>
+                        </label>
 
-                <a href="#" class="download" download>Скачать PDF</a>
+                    </div>
+                    <label>
+                        <textarea name="article-text" class="article-text" placeholder="Текст" required></textarea>
+                    </label>
+                    <label>
+                        <textarea name="article-text-extension" class="article-text-extension" placeholder="Текст"></textarea>
+                    </label>
+                    <label>
+                        <textarea name="article-note" class="article-note" placeholder="Примечание"></textarea>
+                    </label>
+                    <div class="article-button-wrap">
+                        <button type="button" class="article-attach-button">Прикрепить</button>
+                        <button type="submit" class="article-send-button">Отправить</button>
+                    </div>
 
+                </form>
 
+            </section>
 
-            </div>
-                
         </div>
 
     </main>
+
     <footer class="footer">
         <div class="container footer-wrap">
             <div class="arr">
