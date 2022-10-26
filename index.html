@@ -20,7 +20,7 @@
         <div class="container header">
 
            <ul class="authorization-menu">
-            <li class="authorization-enter"> <button type="button" class="authorization-button">Вход</button></li>
+            <li class="authorization-enter"> <button type="button" class="authorization-button" data-modal-open>Вход</button></li>
             <li class="authorization-language"> <button type="button" class="authorization-button"><svg width="20px" hight="13px">
                 <use href="./img/icons.svg#icon-flag_of_ukraine"></use>
             </svg></button></li>  </li>
@@ -221,5 +221,28 @@
         </div>
 
     </footer>
+    <div class="backdrop " data-modal>
+        <div class="modal-enter">
+            <h2 class="modal-title">Вход</h2>
+            <p class="modal-enter-text">Введите свой логин и пароль</p>
+            <form>
+                <label>
+                    <input type="text" name="username" class="enter-username" placeholder="Логин" minlength="5" maxlength="20">
+                </label>
+                <label>
+                    <input type="password" name="password" class="enter-password" placeholder="Пароль" minlength="5" maxlength="20">
+                </label>
+                <a href="#" class="lost-pass-link">Забыли пароль?</a>
+                <button type="submit" class="enter-button">Войти</button>
+                <button type="button" class="create-account-button" data-modal-close>Создать аккаунт</button>
+            </form>
+
+        </div>
+        <div class="modal-registration">
+
+        </div>
+
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
