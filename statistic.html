@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Архивы</title>
+    <title>Статистика</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Montserrat&display=swap"
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles_archives.css" />
+    <link rel="stylesheet" href="./css/styles_statistic.css" />
 </head>
 <body>
     <header class="header">
@@ -38,7 +38,8 @@
                             </li>
                             <li class="header-submenu-item"><a href="#" class="header-submenu-link">Условия публикации</a>
                             </li>
-                            <li class="header-submenu-item"><a href="./new_article.html" class="header-submenu-link">Подача статьи для
+                            <li class="header-submenu-item"><a href="./new_article.html" class="header-submenu-link">Подача
+                                    статьи для
                                     опубликования</a>
                             </li>
     
@@ -65,7 +66,8 @@
                             </li>
                             <li class="header-submenu-item"><a href="#" class="header-submenu-link">Политика открытого
                                     доступа</a></li>
-                            <li class="header-submenu-item"><a href="./statistic.html" class="header-submenu-link">Статистика</a></li>
+                            <li class="header-submenu-item"><a href="./statistic.html"
+                                    class="header-submenu-link">Статистика</a></li>
     
                         </ul>
                     </li>
@@ -83,57 +85,83 @@
         </div>
     
     </header>
+
     <main>
-        <section class="archive">
-            <h1 class="visually-hidden">Архивы</h2>
-    
-            <div class="container">
-                <aside class="aside"></aside>
-                <ul class="archive-list">
-                    <li class="archive-item"><img src="./img/arch_cover_1.jpg" alt="Обложка журнала" class="archive-img"><div class="archive-wrap"><h2 class="archive-title">Название</h2><p class="archive-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae neque et magna congue mattis ut sit amet erat. Sed
-                    in ex sed dui placerat fermentum vitae ut dui. Praesent nulla magna, sagittis vitae eros ut, vulputate cursus nunc. Ut
-                    tempor nibh non magna mollis tristique. Nam nunc nisl, rhoncus sodales efficitur ut, dictum et est. Phasellus quis
-                    feugiat massa, nec auctor quam. Etiam finibus vestibulum tellus. Donec vehicula ac sapien id vehicula. Donec vel ipsum
-                    accumsan, tincidunt nisl eu, egestas urna. Duis ut arcu elementum, malesuada neque a, vehicula erat.</p><a href="#" class="archive-link">Подробнее</a></div></li>
-                    <li class="archive-item"><img src="./img/arch_cover_2.jpg" alt="Обложка журнала" class="archive-img">
-                        <div class="archive-wrap">
-                            <h2 class="archive-title">Название</h2>
-                            <p class="archive-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae neque et magna
-                                congue mattis ut sit amet erat. Sed
-                                in ex sed dui placerat fermentum vitae ut dui. Praesent nulla magna, sagittis vitae eros ut, vulputate
-                                cursus nunc. Ut
-                                tempor nibh non magna mollis tristique. Nam nunc nisl, rhoncus sodales efficitur ut, dictum et est.
-                                Phasellus quis
-                                feugiat massa, nec auctor quam. Etiam finibus vestibulum tellus. Donec vehicula ac sapien id vehicula. Donec
-                                vel ipsum
-                                accumsan, tincidunt nisl eu, egestas urna. Duis ut arcu elementum, malesuada neque a, vehicula erat.</p><a
-                                href="#" class="archive-link">Подробнее</a>
-                        </div>
-                    </li>
-                    <li class="archive-item"><img src="./img/arch_cover_3.jpg" alt="Обложка журнала" class="archive-img">
-                        <div class="archive-wrap">
-                            <h2 class="archive-title">Название</h2>
-                            <p class="archive-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae neque et magna
-                                congue mattis ut sit amet erat. Sed
-                                in ex sed dui placerat fermentum vitae ut dui. Praesent nulla magna, sagittis vitae eros ut, vulputate
-                                cursus nunc. Ut
-                                tempor nibh non magna mollis tristique. Nam nunc nisl, rhoncus sodales efficitur ut, dictum et est.
-                                Phasellus quis
-                                feugiat massa, nec auctor quam. Etiam finibus vestibulum tellus. Donec vehicula ac sapien id vehicula. Donec
-                                vel ipsum
-                                accumsan, tincidunt nisl eu, egestas urna. Duis ut arcu elementum, malesuada neque a, vehicula erat.</p><a
-                                href="#" class="archive-link">Подробнее</a>
-                        </div>
-                    </li>
-                </ul>
-                
+
+        <div class="container">
+            <section class="statistic">
+                <h1 class="visually-hidden">Статистика просмотров и скачиваний статей</h1>
+                <div class="statistic-wrap">
+                    <div class="statistic-title-wrap">
+                        <h2 class="visually-hidden">Название статей</h2>
+                        <h3 class="statistic-title">Название</h3>
+                        <p class="statistic-article">Статья 1</p>
+                        <p class="statistic-article">Статья 2</p>
+                        <p class="statistic-article">Статья 3</p>
+                        <p class="statistic-article">Статья 4</p>
+                        <p class="statistic-article">Статья 5</p>
+                        <p class="statistic-article">Статья 6</p>
+                        <p class="statistic-article">Статья 7</p>
+                        <p class="statistic-article">Статья 8</p>
+                        <p class="statistic-article">Статья 9</p>
+                        <p class="statistic-article">Статья 10</p>
+                    </div>
+                    <div class="statistic-wiews-wrap">
+                        <h2 class="visually-hidden">Количество просмотров</h2>
+                        <h3 class="statistic-views-title">Просмотры <svg class="statistic-arrow" width="10" height="18">
+                        <use href="./img/icons.svg#icon-arrow"></use></svg></h3>
+                        <p class="statistic-views">1764</p>
+                        <p class="statistic-views">1532</p>
+                        <p class="statistic-views">1235</p>
+                        <p class="statistic-views">1105</p>
+                        <p class="statistic-views">1003</p>
+                        <p class="statistic-views">978</p>
+                        <p class="statistic-views">835</p>
+                        <p class="statistic-views">543</p>
+                        <p class="statistic-views">321</p>
+                        <p class="statistic-views">132</p>
+
+                    </div>
+                    <div class="statistic-downloads-wrap">
+                        <h2 class="visually-hidden">Количество скачиваний</h2>
+                        <h3 class="statistic-downloads-title">Скачиваний <svg class="statistic-arrow" width="10" height="18">
+                        <use href="./img/icons.svg#icon-arrow"></use></svg></h3>
+                        <p class="statistic-downloads">153</p>
+                        <p class="statistic-downloads">132</p>
+                        <p class="statistic-downloads">132</p>
+                        <p class="statistic-downloads">123</p>
+                        <p class="statistic-downloads">112</p>
+                        <p class="statistic-downloads">92</p>
+                        <p class="statistic-downloads">73</p>
+                        <p class="statistic-downloads">58</p>
+                        <p class="statistic-downloads">34</p>
+                        <p class="statistic-downloads">21</p>
+
+                    </div>
+
+                </div>
+
+            </section>
+            <div class="page-navigation-wrap">
+                <p class="page-navigation">Предыдущая</p>
+                <p class="page-navigation">1</p>
+                <p class="page-navigation">2</p>
+                <p class="page-navigation">3</p>
+                <p class="page-navigation">4</p>
+                <p class="page-navigation">5</p>
+                <p class="page-navigation">6</p>
+                <p class="page-navigation">7</p>
+                <p class="page-navigation">8</p>
+                <p class="page-navigation">9</p>
+                <p class="page-navigation">10</p>
+                <p class="page-navigation">Следующая</p>
             </div>
-        </section>
-    
-    
-    
-    
+
+
+        </div>
+
     </main>
+
     <footer class="footer">
         <div class="container footer-wrap">
             <div class="arr">
@@ -174,6 +202,5 @@
         </div>
     
     </footer>
-    
 </body>
 </html>

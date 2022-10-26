@@ -1,5 +1,8 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
+<symbol id="icon-arrow" viewBox="0 0 20 32">
+<path d="M9.213 31.208c0.229 0.228 0.544 0.369 0.893 0.369s0.664-0.141 0.893-0.369v0l8.039-8.039c0.21-0.225 0.339-0.528 0.339-0.861 0-0.698-0.566-1.263-1.263-1.263-0.333 0-0.636 0.129-0.862 0.34l0.001-0.001-7.146 7.144-7.146-7.144c-0.231-0.248-0.56-0.402-0.924-0.402-0.698 0-1.263 0.566-1.263 1.263 0 0.364 0.154 0.693 0.401 0.923l0.001 0.001 8.039 8.039zM8.842 0v30.316h2.526v-30.316h-2.526z"></path>
+</symbol>
 <symbol id="icon-flag_of_ukraine" viewBox="0 0 46 32">
 <path fill="#005bbb" style="fill: var(--color1, #005bbb)" opacity="0.8" d="M45.714 0h-45.714v30.475h45.714v-30.475z"></path>
 <path fill="#ffd500" style="fill: var(--color2, #ffd500)" opacity="0.8" d="M45.714 15.239h-45.714v15.237h45.714v-15.239z"></path>

@@ -1,0 +1,393 @@
+:root {
+    --main-color: #386457;
+    --current-color: #3A8972;
+    --white-color: #fff;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+/* Header */
+
+.header {
+    height: 450px;
+    background-image: url(../img/statistic.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: var(--main-color);
+    padding-top: 22px;
+
+}
+
+.header-wrap {
+    position: relative;
+    margin: auto;
+
+
+}
+
+.language {
+    position: absolute;
+    top: 0;
+    right: 15px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.25;
+    /* identical to box height */
+    color: rgba(255, 255, 255, 0.8);
+
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.navigation {}
+
+.header-menu-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.header-menu-item {
+    position: relative;
+    display: block;
+    list-style: none;
+}
+
+.header-link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.28;
+    /* identical to box height */
+    color: var(--white-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--white-color);
+    text-decoration: underline;
+}
+
+.header-logo {
+    /* fill: var(--main-color); */
+}
+
+
+.header-submenu-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.header-submenu-item {
+    list-style: none;
+}
+
+.header-submenu-link {
+    text-decoration: none;
+    display: block;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.21;
+    color: var(--white-color);
+    margin-top: 20px;
+    white-space: nowrap;
+}
+
+.header-submenu-link:hover,
+.header-submenu-link:focus {
+    text-decoration: underline;
+}
+
+.poligon {
+    visibility: hidden;
+    opacity: 0;
+    fill: currentColor;
+
+}
+
+.header-menu-item:hover .header-submenu-list,
+.header-menu-item:hover .poligon {
+    visibility: visible;
+    opacity: 1;
+}
+
+.header-title-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.header-title {
+
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 1.26;
+    color: var(--white-color);
+
+}
+
+/* Main */
+
+.statistic {
+    margin-top: 150px;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-bottom: 95px;
+
+}
+
+.statistic-wrap {
+    display: flex;
+}
+
+.statistic-title-wrap {
+    width: 510px;
+}
+
+.statistic-title,
+.statistic-views-title,
+.statistic-downloads-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.11;
+    color: var(--main-color);
+    margin-bottom: 50px;
+
+}
+
+.statistic-article,
+.statistic-views,
+.statistic-downloads {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.11; 
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 15px;
+}
+
+.statistic-article:last-child,
+.statistic-views:last-child,
+.statistic-downloads:last-child {
+    margin-bottom: 0;
+}
+
+.statistic-wiews-wrap {
+    width: 150px;
+    text-align: center;
+}
+
+
+
+.statistic-arrow {
+    width: 10px;
+    height: 18px;
+    margin-left: 15px;
+    fill: currentColor;
+    
+}
+
+.statistic-views {}
+
+.statistic-downloads-wrap {
+    width: 150px;
+    margin-left: 60px;
+    text-align: center;
+}
+
+
+
+
+
+.page-navigation-wrap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.page-navigation {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.43; 
+    color: rgba(0, 0, 0, 0.7);
+    margin-right: 10px;
+}
+
+.page-navigation:last-child {
+    margin-right: 0;
+}
+
+/* Foter */
+
+.footer {
+    background-color: var(--main-color);
+    height: 300px;
+    padding-top: 40px;
+}
+
+.footer-wrap {
+    display: flex;
+
+}
+
+.arr {
+    width: 170px;
+}
+
+.arr-link {
+    margin: 0 auto 15px;
+
+}
+
+.arr-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.43;
+    /* identical to box height, or 143% */
+    color: rgba(255, 255, 255, 0.7);
+    margin: auto;
+}
+
+.arr-date {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.43;
+    /* identical to box height, or 143% */
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-menu {
+    display: block;
+    margin-left: 130px;
+}
+
+.footer-menu-list {
+    list-style: none;
+}
+
+.footer-menu-item {
+    margin-bottom: 20px;
+}
+
+.footer-menu-link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.11;
+    /* identical to box height, or 111% */
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.footer-menu-link:hover {
+    text-decoration: underline;
+
+}
+
+.footer-contacts {
+    width: 170px;
+    margin-left: 105px;
+}
+
+.footer-contacts-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.11;
+    /* identical to box height, or 111% */
+    color: var(--white-color);
+    margin-bottom: 10px;
+}
+
+.footer-contacts-list {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.footer-contacts-item {
+    text-decoration: none;
+}
+
+.footer-contacts-link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.43;
+    /* identical to box height, or 143% */
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+.footer-contacts-link:hover {
+    text-decoration: underline;
+}
+
+.footer-address {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.43;
+    /* or 143% */
+    color: rgba(255, 255, 255, 0.7);
+}
